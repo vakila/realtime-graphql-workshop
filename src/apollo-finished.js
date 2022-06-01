@@ -7,7 +7,7 @@ import { getMainDefinition } from "@apollo/client/utilities";
 const scheme = (proto) =>
   window.location.protocol === "https:" ? `${proto}s` : proto;
 
-const GRAPHQL_ENDPOINT = "rt-gql-jsconfbp-test.hasura.app/v1/graphql";
+const GRAPHQL_ENDPOINT = "YOUR_APP_NAME.hasura.app";
 
 const wsURI = `${scheme("ws")}://${GRAPHQL_ENDPOINT}/v1/graphql`;
 const httpurl = `${scheme("http")}://${GRAPHQL_ENDPOINT}/v1/graphql`;

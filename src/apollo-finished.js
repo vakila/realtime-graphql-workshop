@@ -10,7 +10,7 @@ const scheme = (proto) =>
 const GRAPHQL_ENDPOINT = "rt-gql-jsconfbp-test.hasura.app/v1/graphql";
 
 const wsURI = `${scheme("ws")}://${GRAPHQL_ENDPOINT}/v1/graphql`;
-const httpurl = `${scheme("https")}://${GRAPHQL_ENDPOINT}/v1/graphql`;
+const httpurl = `${scheme("http")}://${GRAPHQL_ENDPOINT}/v1/graphql`;
 
 const options = { reconnect: true };
 

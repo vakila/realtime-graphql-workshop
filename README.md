@@ -42,6 +42,4 @@ For more information about additional scripts and options that come along with C
 
 ## Credits
 
-This workshop is based on prior work by Hasura team members: 
-- Catalin Pit's [Realtime Polling App](https://www.freecodecamp.org/news/build-a-full-stack-real-time-voting-app-with-hasura-and-react/)
-- Rishichandra Wahwal's [Realtime Chat App](https://hasura.io/blog/building-a-realtime-chat-app-with-graphql-subscriptions-d68cd33e73f/)
+This workshop is based on prior work by Hasura team members Catalin Pit's [Realtime Polling App](https://www.freecodecamp.org/news/build-a-full-stack-real-time-voting-app-with-hasura-and-react/)
